@@ -1,0 +1,24 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\Putty.telnet]
+@="URL:PuTTY Telnet Protocol"
+"URL Protocol"=""
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\Putty.telnet\DefaultIcon]
+@="C:\\Program Files\\PuTTY\\putty.exe,0"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\Putty.telnet\shell\open\command]
+@="\"C:\\Program Files\\PuTTY\\putty.exe\" %1"
+
+[HKEY_CURRENT_USER\SOFTWARE\Putty]
+
+[HKEY_CURRENT_USER\SOFTWARE\Putty\Capabilities]
+
+[HKEY_CURRENT_USER\SOFTWARE\Putty\Capabilities\URLAssociations]
+"telnet"="Putty.telnet"
+
+[HKEY_CURRENT_USER\SOFTWARE\RegisteredApplications]
+"Putty"="Software\\Putty\\Capabilities"
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\telnet\shell\open\command]
+@="\"C:\\Program Files\\PuTTY\\putty.exe\" %1"
